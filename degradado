@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo con Fondo Degradado</title>
+    <style>
+        /* Fondo degradado de la página */
+        body {
+            background: linear-gradient(45deg, #ff7f50, #1e90ff); /* Degradado de naranja a azul */
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: white; /* Texto en blanco para contraste */
+        }
+
+        /* Estilo del encabezado */
+        h1 {
+            font-size: 50px;
+            text-shadow: 2px 2px 4px #000000; /* Sombra en el texto */
+        }
+
+        /* Estilo de la imagen */
+        img {
+            max-width: 300px;
+            border-radius: 15px; /* Bordes redondeados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hola Mundo</h1>
+    <!-- Agregar una imagen -->
+    <img src="mundo.jpg" alt="mundo.jpg">
+</body>
+</html>
